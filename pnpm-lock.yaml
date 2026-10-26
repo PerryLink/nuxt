@@ -761,6 +761,7 @@ overrides:
   '@nuxt/schema': workspace:*
   '@types/node': 24.19.2
   '@vue/compiler-sfc': 3.5.44
+  env-runner: 0.3.7
   nuxt: workspace:*
   oxc-parser: 0.155.0
   rolldown: 1.2.15
@@ -7539,8 +7540,8 @@ packages:
     resolution: {integrity: sha512-dtJUTepzMW3Lm/NPxRf3wP4642UWhjL2sQxc+ym2YMj1m/H2zDNQOlezafzkHwn6sMstjHTwG6iQQsctDW/b1A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  env-runner@0.3.8:
-    resolution: {integrity: sha512-WF/tEXA/LSE7na7k2T6STXw8aEOAt1tqxextaJH7RZnqZzqSrFVCyFKEU3r0dLgqgu55Kswo5TvkOLuGxz72VQ==}
+  env-runner@0.3.7:
+    resolution: {integrity: sha512-Fcv10GJOlfwP4mD6g05mTtZ1/YrmJGAFIRDYfJwXAhl4xyZCX5O2LsJVTSDctK2jUjzIrNCSk3IkHKvoOqfzHA==}
     hasBin: true
 
   environment@1.1.0:
@@ -17284,7 +17285,7 @@ snapshots:
 
   env-paths@3.0.0: {}
 
-  env-runner@0.3.8:
+  env-runner@0.3.7:
     dependencies:
       crossws: 0.4.16(srvx@1.0.7)
       srvx: 1.0.7
@@ -19735,7 +19736,7 @@ snapshots:
   nitro-nightly@3.0.1-20261024-005652-6bccaad1:
     dependencies:
       crossws: 0.4.16(srvx@1.0.7)
-      env-runner: 0.3.8
+      env-runner: 0.3.7
       h3: 2.0.8(crossws@0.4.16(srvx@1.0.7))(ocache@0.3.1)
       ocache: 0.3.1
       rou3: 1.0.0

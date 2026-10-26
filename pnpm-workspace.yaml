@@ -23,6 +23,8 @@ overrides:
   "@nuxt/schema": "workspace:*"
   "@types/node": "24.19.2"
   "@vue/compiler-sfc": "3.5.44"
+  # TODO: remove once srvx ships a fix for https://github.com/h3js/srvx/issues/338
+  env-runner: "0.3.7"
   nuxt: "workspace:*"
   oxc-parser: "0.155.0"
   rolldown: "1.2.15"
